@@ -9,6 +9,7 @@ I'm a software engineer and I ❤️ working with Typescript.
 import Profession from '@professions';
 import Hobby from '@hobbies';
 import Degree from '@degree';
+import Dota2 from '@steam/common/dota2-beta';
 
 public class Kamran extends CoolNerd  {
 
@@ -30,7 +31,7 @@ public class Kamran extends CoolNerd  {
     
     public game(): void {
       if (!sleeping && !eating && !coding) {
-        this.playDota2();
+        Dota2.play();
       }
     }
 }
