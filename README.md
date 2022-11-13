@@ -10,7 +10,7 @@ import Profession from '@professions';
 import Hobby from '@hobbies';
 import Degree from '@degree';
 
-public class Kamran extends classicNerd  {
+public class Kamran extends CoolNerd  {
 
     public name = 'Muhammad Kamran';
     public profession = Profession.SoftwareEngineer;
