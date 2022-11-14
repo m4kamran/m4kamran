@@ -12,7 +12,6 @@ import Degree from '@degree';
 import Dota2 from '@steam/common/dota2-beta';
 
 public class Kamran extends CoolNerd  {
-
     public name = 'Muhammad Kamran';
     public profession = Profession.SoftwareEngineer;
     public hobbies = [Hobby.PCGaming, Hobby.Hiking, Hobby.FindingNewPlacesToEat];
